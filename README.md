@@ -425,53 +425,6 @@ DATABASE_URL=postgresql+asyncpg://vmp:your_password@localhost:5432/vmp
 
 ---
 
-# 🔑 Environment Variables
-
-**Never commit your real ****`.env`**** file.**
-
-Create:
-
-```text
-backend/.env
-```
-
-Example configuration:
-
-```env
-ENVIRONMENT=development
-DEBUG=false
-API_PREFIX=/api
-
-DATABASE_URL=postgresql+asyncpg://vmp:your_password@localhost:5432/vmp
-
-SECRET_KEY=your_secret_key
-
-ACCESS_TOKEN_EXPIRE_MINUTES=30
-REFRESH_TOKEN_EXPIRE_MINUTES=10080
-
-CORS_ORIGINS=http://localhost:5500,http://127.0.0.1:5500,http://localhost:8080,http://127.0.0.1:8080
-
-FIRST_ADMIN_EMAIL=admin@vulnguard.com
-FIRST_ADMIN_PASSWORD=change_this_password
-
-TRIVY_BINARY=trivy
-TRIVY_TIMEOUT_SECONDS=900
-
-WAZUH_API_URL=
-WAZUH_API_USER=
-WAZUH_API_PASSWORD=
-WAZUH_VERIFY_SSL=false
-
-WAZUH_INDEXER_URL=
-WAZUH_INDEXER_USER=
-WAZUH_INDEXER_PASSWORD=
-
-NESSUS_URL=
-NESSUS_ACCESS_KEY=
-NESSUS_SECRET_KEY=
-NESSUS_VERIFY_SSL=false
-```
-
 ---
 
 # 🏗️ Initialize the Database
@@ -489,8 +442,6 @@ For a complete environment with Wazuh synchronization:
 ```bash
 python seed.py
 ```
-
----
 
 # ▶️ Start VulnGuard
 
@@ -634,14 +585,6 @@ VulnGuard aims to provide a centralized platform capable of:
 **Fouad Naatani**
 
 Cybersecurity Student · Penetration Testing · SOC · Purple Team · Cloud Security
-
----
-
-# ⚠️ Disclaimer
-
-VulnGuard is developed for educational, research, and authorized security testing purposes.
-
-Do not use the platform to scan, attack, or access systems without explicit authorization.
 
 ---
 
