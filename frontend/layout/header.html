@@ -1,0 +1,52 @@
+<!-- Top bar, injected by components/sidebar.js -->
+<button class="btn btn-outline-secondary btn-sm" type="button" data-action="toggle-sidebar"
+        aria-label="Toggle navigation">
+  <i class="fa-solid fa-bars"></i>
+</button>
+ 
+<form class="app-header__search" role="search" data-role="global-search">
+  <div class="input-group">
+    <span class="input-group-text bg-transparent border-end-0"><i class="fa-solid fa-magnifying-glass"></i></span>
+    <input type="search" class="form-control border-start-0" name="q"
+           placeholder="Search CVE, package, asset…" aria-label="Global search">
+  </div>
+</form>
+ 
+<div class="ms-auto d-flex align-items-center gap-2">
+  <div class="dropdown">
+    <button class="btn btn-outline-secondary btn-sm position-relative" type="button"
+            data-bs-toggle="dropdown" data-role="notifications-button" aria-expanded="false"
+            aria-label="Notifications">
+      <i class="fa-solid fa-bell"></i>
+      <span class="notification-dot d-none" data-role="notification-dot"></span>
+    </button>
+    <div class="dropdown-menu dropdown-menu-end p-0" style="width: 320px;">
+      <div class="d-flex align-items-center justify-content-between px-3 py-2 border-bottom">
+        <strong>Notifications</strong>
+        <button class="btn btn-link btn-sm p-0" type="button" data-action="clear-notifications">Clear</button>
+      </div>
+      <div data-role="notification-list" style="max-height: 320px; overflow-y: auto;"></div>
+    </div>
+  </div>
+ 
+  <button class="btn btn-outline-secondary btn-sm" type="button" data-action="toggle-theme"
+          aria-label="Toggle dark mode">
+    <i class="fa-solid fa-moon" data-role="theme-icon"></i>
+  </button>
+ 
+  <div class="dropdown">
+    <button class="btn btn-link text-decoration-none d-flex align-items-center gap-2 p-1"
+            type="button" data-bs-toggle="dropdown" aria-expanded="false">
+      <span class="avatar-circle" data-role="user-initials">?</span>
+      <span class="d-none d-md-block text-start lh-sm">
+        <span class="d-block fw-semibold" data-role="user-name">—</span>
+        <small class="text-muted" data-role="user-role">—</small>
+      </span>
+    </button>
+    <ul class="dropdown-menu dropdown-menu-end">
+      <li><a class="dropdown-item" href="/settings"><i class="fa-solid fa-gear me-2"></i>Settings</a></li>
+      <li><hr class="dropdown-divider"></li>
+      <li><a class="dropdown-item" href="#" data-action="logout"><i class="fa-solid fa-right-from-bracket me-2"></i>Logout</a></li>
+    </ul>
+  </div>
+</div>
