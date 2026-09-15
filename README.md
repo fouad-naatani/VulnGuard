@@ -61,9 +61,6 @@ The goal is to transform raw security findings into actionable information for s
                     │ SOC / Pentesters │
                     └──────────────────┘
 ```
-<p align="center">
-  <img src="docs/architecture/architecture.jpg" alt="VulnGuard Architecture" width="900">
-</p>
 
 ---
 ## 📸 Screenshots
@@ -121,7 +118,7 @@ VulnGuard integrates security scanning workflows to collect vulnerability inform
 ### 📄 Security Reports
 
 <p align="center">
-  <img src="docs/images/reports.png" alt="VulnGuard Security Reports" width="1100">
+  <img src="docs/images/Reports.png" alt="VulnGuard Security Reports" width="1100">
 </p>
 
 => **Report exemple :**  
@@ -136,7 +133,7 @@ Security reports provide a structured view of vulnerabilities, affected assets, 
 ## 🏗️ Architecture
 
 <p align="center">
-  <img src="docs/architecture/architecture.png" alt="VulnGuard Architecture" width="1200">
+  <img src="docs/architecture/architecture.jpg" alt="VulnGuard Architecture" width="1200">
 </p>
 
 VulnGuard follows a centralized architecture connecting security data sources, the FastAPI backend, the vulnerability correlation engine, PostgreSQL, and security teams.
