@@ -61,6 +61,9 @@ The goal is to transform raw security findings into actionable information for s
                     │ SOC / Pentesters │
                     └──────────────────┘
 ```
+<p align="center">
+  <img src="docs/architecture/architecture.png" alt="VulnGuard Login" width="900">
+</p>
 
 ---
 ## 📸 Screenshots
