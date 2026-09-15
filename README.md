@@ -63,6 +63,86 @@ The goal is to transform raw security findings into actionable information for s
 ```
 
 ---
+## 📸 Screenshots
+
+### 🔐 Login
+
+<p align="center">
+  <img src="docs/images/login.png" alt="VulnGuard Login" width="900">
+</p>
+
+VulnGuard provides a secure authentication interface for accessing the vulnerability management platform.
+
+---
+
+### 📊 Security Dashboard
+
+<p align="center">
+  <img src="docs/images/dashboard.png" alt="VulnGuard Security Dashboard" width="1100">
+</p>
+
+The dashboard provides a centralized overview of the security posture, including assets, vulnerabilities, severity distribution, scans, and recent security activity.
+
+---
+
+### 🔎 Vulnerability Management
+
+<p align="center">
+  <img src="docs/images/vulnerabilities.png" alt="VulnGuard Vulnerability Management" width="1100">
+</p>
+
+Security teams can review, prioritize, track, and manage discovered vulnerabilities according to their severity and remediation status.
+
+---
+
+### 🖥️ Asset Management
+
+<p align="center">
+  <img src="docs/images/assets.png" alt="VulnGuard Asset Management" width="1100">
+</p>
+
+The asset management interface provides visibility into monitored systems and their associated security findings.
+
+---
+
+### 🧪 Security Scans
+
+<p align="center">
+  <img src="docs/images/scans.png" alt="VulnGuard Security Scans" width="1100">
+</p>
+
+VulnGuard integrates security scanning workflows to collect vulnerability information from tools such as Wazuh, Nessus, and Trivy.
+
+---
+
+### 📄 Security Reports
+
+<p align="center">
+  <img src="docs/images/reports.png" alt="VulnGuard Security Reports" width="1100">
+</p>
+
+=> **Report exemple :**  
+<p align="center">
+  <img src="docs/images/report-exemple.png" alt="VulnGuard Security Reports" width="1100">
+</p>
+
+Security reports provide a structured view of vulnerabilities, affected assets, severity, and remediation information.
+
+---
+
+## 🏗️ Architecture
+
+<p align="center">
+  <img src="docs/architecture/architecture.png" alt="VulnGuard Architecture" width="1200">
+</p>
+
+VulnGuard follows a centralized architecture connecting security data sources, the FastAPI backend, the vulnerability correlation engine, PostgreSQL, and security teams.
+
+The platform is designed around a **Purple Team approach**, enabling collaboration between SOC analysts and penetration testers.
+
+
+---
+
 
 # ✨ Features
 
