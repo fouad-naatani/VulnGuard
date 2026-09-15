@@ -582,9 +582,11 @@ VulnGuard aims to provide a centralized platform capable of:
 
 # 👨‍💻 Author
 
-**Fouad Naatani**
+**Fouad Naatani** -- **0xFN**
 
-Cybersecurity Student · Penetration Testing · SOC · Purple Team · Cloud Security
+Cybersecurity Student · Penetration Testing · SOC · Purple Team · Cloud Security 
+
+
 
 ---
 
