@@ -62,7 +62,7 @@ The goal is to transform raw security findings into actionable information for s
                     └──────────────────┘
 ```
 <p align="center">
-  <img src="docs/architecture/architecture.png" alt="VulnGuard Login" width="900">
+  <img src="docs/architecture/architecture.jpg" alt="VulnGuard Architecture" width="900">
 </p>
 
 ---
