@@ -1,0 +1,48 @@
+```txt
+# ==========================================
+# VulnGuard - Backend Dependencies
+# ==========================================
+
+# Web framework
+fastapi
+uvicorn[standard]
+
+# Configuration & validation
+pydantic
+pydantic-settings
+python-dotenv
+
+# Database
+sqlalchemy
+asyncpg
+alembic
+
+# Authentication & Security
+python-jose[cryptography]
+passlib[bcrypt]
+bcrypt
+python-multipart
+
+# HTTP / API integrations
+httpx
+requests
+
+# Async / background processing
+anyio
+
+# Templates / static files
+jinja2
+
+# Report generation
+reportlab
+
+# Data processing
+pandas
+
+# File / multipart handling
+aiofiles
+
+# Development / testing
+pytest
+pytest-asyncio
+```
